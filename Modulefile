@@ -1,0 +1,8 @@
+name          'garethr-rundeck'
+version       '0.0.1'
+author        'garethr'
+license       'Apache License, Version 2.0'
+summary       'Module to manage the Rundeck server management tool'
+project_page  'https://github.com/garethr/garethr-rundeck'
+dependency    'garethr/garethr'
+dependency    'puppetlabs/java'

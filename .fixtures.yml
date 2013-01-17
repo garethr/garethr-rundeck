@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    garethr: git://github.com/garethr/garethr-garethr.git
+    java: git://github.com/puppetlabs/puppetlabs-java.git
+    stdlib: git://github.com/puppetlabs/puppetlabs-stdlib.git
+  symlinks:
+    rundeck: "#{source_dir}"
