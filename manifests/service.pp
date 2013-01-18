@@ -1,5 +1,5 @@
 class rundeck::service {
-  service { 'rundeck':
+  service { 'rundeckd':
     ensure     => 'running',
     enable     => true,
     hasstatus  => true,
